@@ -1,4 +1,5 @@
-#include <bits/stdc++.h>
+#include <stdio.h>
+#include <math.h>
 int main ()
 {
    double a,h,y1,y2;
