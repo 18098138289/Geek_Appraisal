@@ -24,6 +24,6 @@ for(double y=a; y1 - y2 > 0.0001;t++)
 	printf("  %lf     %lf\n",  x  ,  y2);
 }
  
-  return 0;
+  return 0 ;
    
 }
