@@ -64,7 +64,7 @@ int main()
         if(huffman[i][1] == -1 && huffman[i][2] == -1)  //没有左右子树结点 
         {
             length = findParent(i,huffman,count);   //得到各个叶结点的带权路径长度
-            sum += length; 	//各个叶结点带权路径长度累加得到总长度WPL
+            sum += length*huffman[i][3]; 	//各个叶结点带权路径长度累加得到总长度WPL
         }
     }
     printf("the tree's WPL  is  %d\n",sum);
